@@ -42,9 +42,9 @@
 }
 
 .intro-p {
-  border-image: none;
-  padding: 10px;
-  border: 2px dashed rgba(147, 76, 71, 0.1);
+  border: 15px solid transparent;
+  padding: 15px;
+  border-image: url('static/intro-p.png') 30 stretch;
 }
 @media (min-width: 460px) {
   .intro-title::before {
