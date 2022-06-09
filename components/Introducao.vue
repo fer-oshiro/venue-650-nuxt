@@ -5,7 +5,9 @@
     </div>
     <div class="col-span-2 py-10">
       <div class="text-center lg:text-left">
-        <h1 class="text-2xl text-primary3 relative inline-block intro-title">
+        <h1
+          class="text-3xl font-title font-semibold text-primary3 relative inline-block intro-title"
+        >
           Realizando sonhos desde 2020
         </h1>
       </div>
@@ -57,7 +59,7 @@
     transform: rotate(0deg);
   }
   .intro-p {
-    border: 40px solid transparent;
+    border: 20px solid transparent;
     padding: 15px;
     border-image: url('static/intro-p.png') 30 stretch;
   }

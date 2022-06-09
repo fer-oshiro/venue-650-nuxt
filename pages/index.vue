@@ -1,4 +1,9 @@
-<template><Introducao /></template>
+<template>
+  <div>
+    <Introducao />
+    <Projeto />
+  </div>
+</template>
 
 <script lang="ts">
 import Vue from 'vue'
