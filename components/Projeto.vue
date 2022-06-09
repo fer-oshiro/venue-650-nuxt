@@ -1,6 +1,7 @@
 <template>
   <div
     class="py-16 lg:py-10 lg:grid lg:grid-cols-5 lg:gap-8 bg-secondary3 projeto"
+    id="projeto"
   >
     <div class="col-span-2 self-center mb-16 lg:mb-0">
       <h1

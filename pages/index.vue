@@ -2,6 +2,7 @@
   <div>
     <Introducao />
     <Projeto />
+    <Orcamento />
   </div>
 </template>
 
