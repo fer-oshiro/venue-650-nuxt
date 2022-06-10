@@ -1,6 +1,6 @@
 <template>
   <div class="min-h-screen bg-secondary1 flex justify-center">
-    <div class="p-10 max-w-screen-xl flex-1 text-secondary3">
+    <div class="p-4 sm:p-10 max-w-screen-xl flex-1 text-secondary3">
       <Navbar />
       <Nuxt />
     </div>
