@@ -8,7 +8,7 @@
       <ul class="font-body flex flex-wrap justify-center gap-x-10 gap-y-5">
         <Link link="">Sobre</Link>
         <Link link="#projeto">Projeto</Link>
-        <Link link="">Orçamento</Link>
+        <Link link="#orcamento">Orçamento</Link>
         <Link link="">Contato</Link>
       </ul>
     </nav>
