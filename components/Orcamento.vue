@@ -1,5 +1,5 @@
 <template>
-  <div class="orcamento-bg">
+  <div class="orcamento-bg" id="orcamento">
     <h1
       class="mt-32 mb-8 py-8 text-center text-6xl font-title font-semibold text-primary3 relative orcamento-title"
     >
@@ -33,7 +33,7 @@
         </div>
       </div>
 
-      <div class="bg-secondary2 p-8 shadow-lg flex-1">
+      <div class="bg-secondary2 p-8 shadow-md flex-1">
         <h1 class="font-logo text-2xl md:text-4xl text-center p-8">Simples</h1>
         <ul class="px-8 pb-8 md:text-xl list-disc space-y-2">
           <li>Consulta com uma das nossas designers</li>
