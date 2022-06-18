@@ -266,6 +266,45 @@ export default {
   methods: {
     submit() {
       if (this.plano && this.estilo) {
+        if (this.plano === 'personalizado') {
+          const designersFake = [
+            {
+              name: 'Ana',
+              photo: 'perfil/ana.png',
+              motto:
+                'Podemos ter nossas diferenças, mas nada é mais importante que a família ',
+              projetos: ['1.png', '2.png', '3.png', '4.png', '5.png'],
+            },
+            {
+              name: 'José',
+              photo: 'perfil/jose.png',
+              motto:
+                'Podemos ter nossas diferenças, mas nada é mais importante que a família ',
+              projetos: ['6.png', '7.png', '8.png', '9.png', '10.png'],
+            },
+            {
+              name: 'Raquel',
+              photo: 'perfil/raquel.png',
+              motto:
+                'Podemos ter nossas diferenças, mas nada é mais importante que a família ',
+              projetos: ['11.png', '12.png', '13.png', '14.png', '15.png'],
+            },
+          ]
+          localStorage.setItem('designers', JSON.stringify(designersFake))
+        }
+        if (this.plano === 'simples') {
+          const designersFake = [
+            {
+              name: 'Ana',
+              photo: 'perfil/ana.png',
+              motto:
+                'Podemos ter nossas diferenças, mas nada é mais importante que a família ',
+              projetos: ['1.png', '2.png', '3.png', '4.png', '5.png'],
+            },
+          ]
+          localStorage.setItem('designers', JSON.stringify(designersFake))
+        }
+        this.$router.push('finalizacao')
         return true
       }
 
@@ -280,8 +319,6 @@ export default {
       if (!this.flores) {
         this.errors.push('Selecione um buquê')
       }
-
-      console.log(this.errors)
     },
     async getPreview() {
       this.loading = true
