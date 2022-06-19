@@ -53,15 +53,19 @@ A outra ideia seria, aqueles designers que apresentam baixa demanda são realoca
 O designer foi feito no [figma](https://www.figma.com/file/ZpRiz97ZyqKiaoFk0q2zF7/Venue-650?node-id=0%3A1)
 
 Então temos a página inicial, falando sobre o projeto
+
 ![Home](./screenshot/figma-home.PNG)
 
 O formulário para conhecer melhor os gostos do casal
+
 ![Simulação](./screenshot/figma-simulacao.PNG)
 
 O formulário para quem escolheu o plano personalizado
+
 ![Personalizado](./screenshot/figma-personalizado.PNG)
 
 O formulário para quem escolheu o plano simples
+
 ![Simples](./screenshot/figma-simples.PNG)
 
 ## Tecnologias utilizadas
