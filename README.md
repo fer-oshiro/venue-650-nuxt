@@ -1,4 +1,6 @@
-# venue-650-nuxt
+# Venue 650
+
+:construction: Projeto em construção :construction:
 
 ## Build Setup
 
@@ -17,52 +19,52 @@ $ yarn start
 $ yarn generate
 ```
 
-For detailed explanation on how things work, check out the [documentation](https://nuxtjs.org).
+## Idealização do Projeto
 
-## Special Directories
+Esse projeto foi criado com a intensão de praticar design com a proposta dada no curso [Foundations of User Experience (UX) ](https://www.coursera.org/learn/foundations-user-experience-design). Além de conhecer um pouco mais sobre Nuxt e Tailwind.
 
-You can create the following extra directories, some of which have special behaviors. Only `pages` is required; you can delete them if you don't want to use their functionality.
+O projeto escolhido foi Preview app for a rustic weeding venue. As análises feitas foram:
 
-### `assets`
+---
 
-The assets directory contains your uncompiled assets such as Stylus or Sass files, images, or fonts.
+**Quais seriam as necessidades, desafios e preocupações a serem resolvidos?**
 
-More information about the usage of this directory in [the documentation](https://nuxtjs.org/docs/2.x/directory-structure/assets).
+- Dificuldade de encontrar um bom lugar
+- Difícil de estimar o preço
+- Estilo de casamento não bater com a personalidade do casal
+- Dificuldade de entender o back stage
+- Ser caro
 
-### `components`
+---
 
-The components directory contains your Vue.js components. Components make up the different parts of your page and can be reused and imported into your pages, layouts and even other components.
+**Ideia**
 
-More information about the usage of this directory in [the documentation](https://nuxtjs.org/docs/2.x/directory-structure/components).
+- A escolha de designer com base em um questionário
 
-### `layouts`
+- Ter dois planos:
+  - Simples
+  - Personalizado
 
-Layouts are a great help when you want to change the look and feel of your Nuxt app, whether you want to include a sidebar or have distinct layouts for mobile and desktop.
+No plano simples, o casamento teria menos persolidades para encaixar e reutilizar o que já foi usado por aqueles que comprar o plano personalizado.
+A outra ideia seria, aqueles designers que apresentam baixa demanda são realocados para realizar os casamento mais simples.
 
-More information about the usage of this directory in [the documentation](https://nuxtjs.org/docs/2.x/directory-structure/layouts).
+## Designer no Figma
 
-### `pages`
+O designer foi feito no [figma](https://www.figma.com/file/ZpRiz97ZyqKiaoFk0q2zF7/Venue-650?node-id=0%3A1)
 
-This directory contains your application views and routes. Nuxt will read all the `*.vue` files inside this directory and setup Vue Router automatically.
+Então temos a página inicial, falando sobre o projeto
+![Home](./screenshot/figma-home.PNG)
 
-More information about the usage of this directory in [the documentation](https://nuxtjs.org/docs/2.x/get-started/routing).
+O formulário para conhecer melhor os gostos do casal
+![Simulação](./screenshot/figma-simulacao.PNG)
 
-### `plugins`
+O formulário para quem escolheu o plano personalizado
+![Personalizado](./screenshot/figma-personalizado.PNG)
 
-The plugins directory contains JavaScript plugins that you want to run before instantiating the root Vue.js Application. This is the place to add Vue plugins and to inject functions or constants. Every time you need to use `Vue.use()`, you should create a file in `plugins/` and add its path to plugins in `nuxt.config.js`.
+O formulário para quem escolheu o plano personalizado
+![Simples](./screenshot/figma-simples.PNG)
 
-More information about the usage of this directory in [the documentation](https://nuxtjs.org/docs/2.x/directory-structure/plugins).
+## Tecnologias utilizadas
 
-### `static`
-
-This directory contains your static files. Each file inside this directory is mapped to `/`.
-
-Example: `/static/robots.txt` is mapped as `/robots.txt`.
-
-More information about the usage of this directory in [the documentation](https://nuxtjs.org/docs/2.x/directory-structure/static).
-
-### `store`
-
-This directory contains your Vuex store files. Creating a file in this directory automatically activates Vuex.
-
-More information about the usage of this directory in [the documentation](https://nuxtjs.org/docs/2.x/directory-structure/store).
+- [Nuxtjs](https://nuxtjs.org/)
+- [Tailwindcss](https://tailwindcss.com/)
