@@ -1,7 +1,7 @@
 <template>
   <div class="orcamento-bg" id="orcamento">
     <h1
-      class="mt-32 mb-8 py-8 text-center text-6xl font-title font-semibold text-primary3 relative orcamento-title"
+      class="mt-32 mb-8 py-8 text-center text-4xl sm:text-6xl font-title font-semibold text-primary3 relative orcamento-title"
     >
       Orçamento
     </h1>
