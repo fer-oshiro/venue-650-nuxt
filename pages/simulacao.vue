@@ -278,15 +278,14 @@ export default {
             {
               name: 'José',
               photo: 'perfil/jose.png',
-              motto:
-                'Podemos ter nossas diferenças, mas nada é mais importante que a família ',
+              motto: 'São nos pequenos detalhes que o aconchego acontece',
               projetos: ['6.png', '7.png', '8.png', '9.png', '10.png'],
             },
             {
               name: 'Raquel',
               photo: 'perfil/raquel.png',
               motto:
-                'Podemos ter nossas diferenças, mas nada é mais importante que a família ',
+                'O amor não tem cor nem cheiro, o único jeito de saber do que se trata é sentindo',
               projetos: ['11.png', '12.png', '13.png', '14.png', '15.png'],
             },
           ]
