@@ -61,10 +61,14 @@ O formulário para conhecer melhor os gostos do casal
 O formulário para quem escolheu o plano personalizado
 ![Personalizado](./screenshot/figma-personalizado.PNG)
 
-O formulário para quem escolheu o plano personalizado
+O formulário para quem escolheu o plano simples
 ![Simples](./screenshot/figma-simples.PNG)
 
 ## Tecnologias utilizadas
 
 - [Nuxtjs](https://nuxtjs.org/)
 - [Tailwindcss](https://tailwindcss.com/)
+
+## Demo
+
+![Demo](./screenshot/demo.gif)
